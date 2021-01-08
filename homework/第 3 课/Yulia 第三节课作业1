@@ -1,0 +1,10 @@
+score = int(input("你的分数"))
+
+if score<60:
+    print("不及格")
+elif score<80:
+    print("及格")
+elif score<90:
+    print("良好")
+else:
+    print("优秀")
